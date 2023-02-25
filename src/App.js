@@ -6,13 +6,15 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import Nuevo from './components/Nuevo';
 import Editar from './components/Editar';
+import { useEffect, useState } from 'react';
 
 function App() {
+  
   return (
    /*  <div className="container"> 
       <Login/>
     </div> */
-
+    
     <React.Fragment>
         <Router>
             <Routes>
@@ -28,7 +30,7 @@ function App() {
         </Router>
 
     </React.Fragment>
-
+    
 
   )
 }
